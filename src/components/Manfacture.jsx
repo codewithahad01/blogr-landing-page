@@ -1,20 +1,19 @@
 import React from 'react'
 import img1 from '../images/illustration-phones.svg'
-import img2 from '../images/bg-pattern-circles.svg'
 
 function Manfacture() {
     return (
-        <div className='md:mt-32'>
-            <div className='px-4 mt-20'>
-                <img className='absolute left-0 md:w-full md:h-2/6 md:mt-56' src={img2} alt="background" />
-                <img className='absolute  left-0 mt-32 mb-10 ' src={img1} alt="mobile" />
-                
+        <div className='md:flex p-6'>
+            
+            <div className=''>
+                <img className='  mt-32 mb-10 ' src={img1} alt="mobile" />
             </div>
 
-
-
-            <div className='float-right '>
-                <h1 className='absolute float-right text-2xl md:text-3xl text-center'>State of the Art infrastraucure</h1>
+            <div className='bg-blue-900 text-center rounded-xl animate-bounce'>
+                {/* <h1 className='pb-10 text-white float-right text-2xl md:text-3xl '>State of the Art infrastraucure</h1> */}
+                <p className='text-white p-4 rounded-lg'>You can also type a keyword to 
+                search online for the video that best fits your document.To make your document look professionally produced, 
+                Word provides header.</p>
             </div>
         
         </div>
