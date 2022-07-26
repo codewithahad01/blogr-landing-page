@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 
 function Navbar() {
-
     const [navbar, setNavbar] = useState(false)
     return (
         <nav className="w-full bg-transparent shadow-xl">
@@ -53,24 +52,34 @@ function Navbar() {
 
                 <div>
                     <div
-                        className={`flex-1 justify-self-center  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                        className={`flex-1 md:justify-start  pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                             navbar ? "block" : "hidden"
                         }`}
                     >
-                        <ul className="items-center justify-center   space-y-8 md:flex md:space-x-6 md:space-y-0">
-                            <li className="text-gray-600  hover:text-blue-600">
+                    {/* {navigation.map(item => (  */}
+                        <ul className=" text-lg items-center  justify-center  space-y-8 md:flex md:space-x-6 md:space-y-0">
+                            <li className="text-gray-900  hover:underline">
                                 <a href="#home">Practice</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-gray-900 hover:underline">
                                 <a href="#blog">Company</a>
                             </li>
-                            <li className="text-gray-600 hover:text-blue-600">
+                            <li className="text-gray-900 hover:underline">
                                 <a href="#about">Contact</a>
                             </li>
+                            <div className='flex flex-col md:flex-row '>
+                            <div className='md:mr-2 md:mt-1'>
+                                <button>Login</button>
+                            </div>
                             
-                        </ul>
-                    </div>
-                </div>
+                            <div className='md:bg-black md:text-white md:px-2 md:py-1 py-3 rounded-lg  hover:bg-white hover:text-black hover:ring-2'>
+                                <button>Sign up</button>
+                            </div>
+                            </div>
+                                    </ul>
+                                    
+                                </div>
+                            </div>
             </div>
         </nav>
     )
