@@ -3,8 +3,8 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className='header px-4' >
-            <h1 className='flex justify-center mb-10 text-white items-center pt-20 text-center text-4xl font-bold md:text-5xl'>
+        <div className='bg-amber-600 rounded-bl-3xl -mt-44 pb-28  px-4' >
+            <h1 className='flex justify-center mb-10 text-white items-center pt-56 text-center text-4xl font-bold  md:text-5xl'>
                 A modern publishing platform
             </h1>
             <p className='text-center text-gray-300 text-xl md:text-2xl'>Grow your audience and build your online board</p>

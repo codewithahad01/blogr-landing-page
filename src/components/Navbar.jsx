@@ -4,12 +4,12 @@ import { useState } from 'react'
 function Navbar() {
     const [navbar, setNavbar] = useState(false)
     return (
-        <nav className="w-full bg-transparent shadow-xl">
+        <nav className="w-full bg-transparent mt-4 h-full">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="#logout">
-                            <h2 className="text-2xl font-extrabold md:text-3xl lg:text-4xl">Blogr</h2>
+                            <h2 className="text-3xl p-6 text-black font-extrabold md:text-3xl lg:text-4xl">Blogr</h2>
                         </a>
                         <div className="md:hidden">
                             <button
@@ -69,7 +69,7 @@ function Navbar() {
                             </li>
                             <div className='flex flex-col md:flex-row '>
                             <div className='md:mr-2 md:mt-1'>
-                                <button>Login</button>
+                                <button className=' hover:ring-2 rounded-lg px-3'>Login</button>
                             </div>
                             
                             <div className='md:bg-black md:text-white md:px-2 md:py-1 py-3 rounded-lg  hover:bg-white hover:text-black hover:ring-2'>
