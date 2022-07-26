@@ -4,11 +4,8 @@
 
 
 body{
-    /* background-image: url('images/bg-pattern-circles.svg'); */
+    background-image: url('images/bg-pattern-intro-desktop.svg');
     background-repeat: no-repeat;
-    background-color: cyanm      ;
-}
-
-.header{
-    /* background-image: url('images/illustration-editor-desktop.svg'); */
+    background-size: contain;
+    background-color: rgb(209, 86, 59);
 }
