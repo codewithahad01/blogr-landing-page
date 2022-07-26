@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body{
+    /* background-image: url('images/bg-pattern-circles.svg'); */
+    background-repeat: no-repeat;
+    background-color: cyanm      ;
+}
+
+.header{
+    /* background-image: url('images/illustration-editor-desktop.svg'); */
+}
