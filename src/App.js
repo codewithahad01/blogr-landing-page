@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Manfacture from "./components/Manfacture";
 import Navbar from "./components/Navbar";
 import Services from "./components/Services";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Feature />
         <Manfacture />
         <Services />
+        <Footer />
     </div>
 
   );
