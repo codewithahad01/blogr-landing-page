@@ -1,4 +1,4 @@
-![image](https://github.com/Abdulahadahmadi/blogr-landing-page/assets/62951574/97d54408-8004-487a-b05f-f4a225bc6d4d)# Getting Started with Create React App
+![Screenshot (1)](https://github.com/Abdulahadahmadi/blogr-landing-page/assets/62951574/2c71836e-8d07-4690-8446-17322ec88c70)
 
 
 
